@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "leohsouza";
+$host = "us-cdbr-east-05.cleardb.net";
+$user = "b108994ad4810b";
+$pass = "67a33208";
+$dbname = "heroku_5ca7601b54f5f68";
 $port = 3306;
 
 try{
