@@ -16,7 +16,7 @@ include_once "conexao.php";
 <CENter><a href="https://cosmic-sunburst-71b161.netlify.app/" target="_blank" style="color: white">acessar o quadro canvas</a></CENter>
     <a href="listar.php" style="color: white">Listar</a><br>
     <a href="upload.php" style="color: white">Cadastrar</a><br>
-    <a href="sair.php" style="color: white">Listar</a><br>
+    <a href="sair.php" style="color: white">Sairr</a><br>
 
     <h2>Detalhes do Usuário</h2>
 
@@ -49,7 +49,7 @@ include_once "conexao.php";
             echo "<img src='imagens/$id/$foto_usuario' width='150'><br>";
             echo "<a href='imagens/$id/$foto_usuario' download>Download</a><br><br>";
         } else {
-            echo "<img src='imagens/icon_user.png' width='150'><br>";
+            echo "<img src='imagens/icon_user.png' width='1000'><br>";
         }
     } else {
         $_SESSION['msg'] = "<p style='color: #f00;'>Erro: Necessário selecionar o usuário!</p>";
